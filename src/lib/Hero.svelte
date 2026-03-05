@@ -23,7 +23,7 @@
 
 		<!-- CTAs -->
 		<div class="animate-fade-in-up delay-400 flex flex-col sm:flex-row items-center gap-4">
-			<a href="#" class="w-full sm:w-auto text-base font-medium bg-[#2563eb] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-colors duration-200 active:scale-[0.97]">
+			<a href="#" class="w-full sm:w-auto text-base font-medium bg-primary-500 text-white px-6 py-3 rounded-lg hover:bg-primary-600 transition-colors duration-200 active:scale-[0.97]">
 				Start for free
 			</a>
 			<a href="#" class="w-full sm:w-auto text-base font-medium bg-gray-800 text-white border border-gray-700 px-6 py-3 rounded-lg hover:opacity-90 hover:bg-gray-700 transition-colors duration-200 active:scale-[0.97]">

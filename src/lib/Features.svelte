@@ -220,11 +220,11 @@
 							<MoreHorizontal size={14} class="text-gray-400" />
 						</div>
 						<div class="h-32 flex items-end gap-2 justify-between px-2">
-							<div class="w-full bg-pink-100 h-[40%] rounded-t-sm"></div>
-							<div class="w-full bg-pink-200 h-[60%] rounded-t-sm"></div>
-							<div class="w-full bg-pink-300 h-[30%] rounded-t-sm"></div>
-							<div class="w-full bg-pink-400 h-[80%] rounded-t-sm"></div>
-							<div class="w-full bg-pink-500 h-[50%] rounded-t-sm"></div>
+							<div class="w-full bg-primary-100 h-[40%] rounded-t-sm"></div>
+							<div class="w-full bg-primary-200 h-[60%] rounded-t-sm"></div>
+							<div class="w-full bg-primary-300 h-[30%] rounded-t-sm"></div>
+							<div class="w-full bg-primary-400 h-[80%] rounded-t-sm"></div>
+							<div class="w-full bg-primary-500 h-[50%] rounded-t-sm"></div>
 						</div>
 						<div class="flex justify-between mt-2 text-[10px] text-gray-400">
 							<span>Mon</span>

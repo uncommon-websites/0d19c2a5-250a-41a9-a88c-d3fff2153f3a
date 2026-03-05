@@ -32,7 +32,7 @@
 			<a href="#" class="hidden md:block text-[15px] font-medium text-gray-300 hover:text-white transition-colors px-4 py-2 border border-gray-700 rounded-lg hover:bg-gray-800">
 				Sign in
 			</a>
-			<a href="#" class="text-[15px] font-medium bg-[#2563eb] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-colors duration-200 active:scale-[0.97]">
+			<a href="#" class="text-[15px] font-medium bg-primary-500 text-white px-6 py-3 rounded-lg hover:bg-primary-600 transition-colors duration-200 active:scale-[0.97]">
 				Start for free
 			</a>
 		</div>
