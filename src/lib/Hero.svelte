@@ -13,7 +13,7 @@
 
 		<!-- Headline -->
 		<h1 class="animate-fade-in-up delay-200 text-5xl md:text-7xl lg:text-[84px] font-extrabold tracking-tight text-white leading-tight text-balance mb-6">
-			Total<br />scheduling control.
+			Own your<br />scheduling stack.
 		</h1>
 
 		<!-- Subheadline -->
