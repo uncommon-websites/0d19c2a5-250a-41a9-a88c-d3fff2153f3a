@@ -1,50 +1,52 @@
 <script lang="ts">
-	import { X } from 'lucide-svelte';
 </script>
 
-<div class="fixed top-0 left-0 right-0 z-50">
-	<!-- Top Banner -->
-	<div class="bg-black text-white text-xs font-medium py-2.5 px-4 relative">
-		<div class="flex justify-center items-center gap-2">
-			<span>Meet the Attio Developer Platform</span>
-			<span class="opacity-70">→</span>
+<nav class="fixed top-0 left-0 right-0 bg-gray-900/80 backdrop-blur-md z-50 transition-all duration-300 animate-fade-in delay-0 border-b border-gray-800">
+	<div class="max-w-[1440px] mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+		
+		<!-- Left: Logo & Links -->
+		<div class="flex items-center gap-10">
+			<!-- Logo -->
+			<a href="#" class="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+				<div class="w-[22px] h-[22px] bg-white rounded-[4px] skew-x-[-15deg]"></div>
+				<span class="text-[26px] font-bold tracking-tight text-white mt-0.5">cal.com</span>
+			</a>
+
+			<!-- Desktop Links -->
+			<div class="hidden lg:flex items-center gap-8">
+				<button class="flex items-center gap-1.5 text-[15px] font-medium text-gray-300 hover:text-white transition-colors">
+					Platform
+					<svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+				</button>
+				<button class="flex items-center gap-1.5 text-[15px] font-medium text-gray-400 hover:text-white transition-colors">
+					Resources
+					<svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+				</button>
+				<a href="#" class="text-[15px] font-medium text-gray-400 hover:text-white transition-colors">Customers</a>
+				<a href="#" class="text-[15px] font-medium text-gray-400 hover:text-white transition-colors">Pricing</a>
+			</div>
 		</div>
-		<button class="absolute right-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white">
-			<X size={14} />
-		</button>
+
+		<!-- Right: Auth Buttons -->
+		<div class="flex items-center gap-4">
+			<a href="#" class="hidden md:block text-[15px] font-medium text-gray-300 hover:text-white transition-colors px-4 py-2 border border-gray-700 rounded-lg hover:bg-gray-800">
+				Sign in
+			</a>
+			<a href="#" class="text-[15px] font-medium bg-[#2563eb] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-colors duration-200 active:scale-[0.97]">
+				Start for free
+			</a>
+		</div>
 	</div>
+</nav>
 
-	<!-- Main Nav -->
-	<nav class="bg-white/90 backdrop-blur-md border-b border-gray-200">
-		<div class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
-			<div class="flex items-center gap-8">
-				<a href="/" class="flex items-center gap-2 text-black hover:opacity-80 transition-opacity">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M5.5 12L10.5 19L15.5 12L10.5 5L5.5 12Z" fill="black"/>
-						<path d="M10.5 19L15.5 12L20.5 19H10.5Z" fill="black" fill-opacity="0.5"/>
-						<path d="M5.5 12L10.5 5L15.5 12H5.5Z" fill="black" fill-opacity="0.5"/>
-					</svg>
-					<span class="font-bold text-xl tracking-tight">attio</span>
-				</a>
-
-				<div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
-					<button class="hover:text-black flex items-center gap-1">
-						Platform <span class="text-[10px]">▼</span>
-					</button>
-					<button class="hover:text-black flex items-center gap-1">
-						Resources <span class="text-[10px]">▼</span>
-					</button>
-					<a href="#" class="hover:text-black">Customers</a>
-					<a href="#" class="hover:text-black">Pricing</a>
-				</div>
-			</div>
-
-			<div class="flex items-center gap-4">
-				<a href="#" class="text-sm font-medium text-gray-600 hover:text-black">Sign in</a>
-				<a href="#" class="bg-black text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors">
-					Start for free
-				</a>
-			</div>
-		</div>
-	</nav>
-</div>
+<style>
+	@keyframes fadeIn {
+		from { opacity: 0; }
+		to { opacity: 1; }
+	}
+	.animate-fade-in {
+		opacity: 0;
+		animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+	}
+	.delay-0 { animation-delay: 0ms; }
+</style>

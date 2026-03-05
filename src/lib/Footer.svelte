@@ -51,7 +51,7 @@
 					<li><a href="#" class="hover:text-white">CSV</a></li>
 				</ul>
 
-				<h4 class="text-sm font-medium text-gray-400 mt-8 mb-4">Attio for</h4>
+				<h4 class="text-sm font-medium text-gray-400 mt-8 mb-4">Cal.com for</h4>
 				<ul class="space-y-3 text-sm text-gray-300">
 					<li><a href="#" class="hover:text-white">Startups</a></li>
 					<li><a href="#" class="hover:text-white">Deal flow</a></li>
@@ -96,7 +96,7 @@
 			</div>
 			
 			<div class="flex items-center gap-6 text-xs text-gray-500">
-				<span>© 2025 Attio Ltd. All rights reserved.</span>
+				<span>© 2025 Cal.com Inc. All rights reserved.</span>
 				<a href="#" class="hover:text-gray-300">Terms & Conditions</a>
 				<a href="#" class="hover:text-gray-300">Privacy Policy</a>
 				<a href="#" class="hover:text-gray-300">LLMs</a>

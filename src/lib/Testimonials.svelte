@@ -8,8 +8,8 @@
 			<div class="relative">
 				<!-- Using a placeholder that looks like a sketch/illustration as per screenshot style if possible, or just a photo -->
 				<img 
-					src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop" 
-					alt="Seth Marrs and Co-founder" 
+					src="/generated/image-a-confident-tech-founder-in-a-modern-off-1772668575549-0.webp" 
+					alt="Customer Testimonial" 
 					class="w-full h-auto grayscale rounded-lg"
 				/>
 				<!-- In the screenshot it looks like a line drawing or high contrast photo. I'll use grayscale. -->

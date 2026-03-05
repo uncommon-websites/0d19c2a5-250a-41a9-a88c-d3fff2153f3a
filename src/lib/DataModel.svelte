@@ -5,7 +5,7 @@
 <section class="max-w-[1200px] mx-auto px-6 py-20">
 	<div class="text-center max-w-3xl mx-auto mb-20">
 		<h2 class="text-4xl font-serif text-gray-900 mb-6">
-			A seismic shift in CRM flexibility. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Attio's powerful data model adapts to how your business works, not the other way around. Your business model — perfectly reflected in your CRM.</span>
+			A seismic shift in scheduling flexibility. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Cal.com's powerful data model adapts to how your business works, not the other way around. Your business model — perfectly reflected in your scheduling platform.</span>
 		</h2>
 		<button class="mt-8 px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium hover:border-gray-300 transition-colors">
 			Explore our data model

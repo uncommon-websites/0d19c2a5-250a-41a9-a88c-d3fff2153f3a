@@ -5,7 +5,7 @@
 <section class="max-w-[1200px] mx-auto px-6 py-20">
 	<div class="mb-20 max-w-2xl">
 		<h2 class="text-4xl font-serif text-gray-900 mb-6">
-			GTM at full throttle. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Execute your revenue strategy with precision. Design powerful workflows, deploy AI, integrate your data and build detailed reports — all in one platform.</span>
+			Scheduling at full throttle. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Execute your booking strategy with precision. Design powerful workflows, deploy AI agents, integrate your data and build detailed routing — all in one platform.</span>
 		</h2>
 	</div>
 
@@ -16,7 +16,7 @@
 				<div>
 					<h3 class="text-xl font-bold text-gray-900 mb-4">Automate everything</h3>
 					<p class="text-gray-500 leading-relaxed mb-8">
-						You're in control. Automate even the most complex business processes with our powerful, intelligent automation engine.
+						You're in control. Automate even the most complex scheduling processes with our powerful, intelligent routing engine.
 					</p>
 				</div>
 				<a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-gray-900 hover:opacity-70 transition-opacity">
@@ -31,8 +31,8 @@
 						<div class="flex items-center gap-2 text-xs font-medium text-gray-500 mb-2">
 							<Zap size={12} /> Trigger
 						</div>
-						<div class="text-sm font-medium text-gray-900">When Deal updated</div>
-						<div class="text-xs text-gray-400 mt-1">Trigger when primary contact is updated</div>
+						<div class="text-sm font-medium text-gray-900">When Booking created</div>
+						<div class="text-xs text-gray-400 mt-1">Trigger when a new appointment is booked</div>
 					</div>
 
 					<!-- Path -->
@@ -80,9 +80,9 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
 			<div class="p-12 flex flex-col justify-between border-r border-gray-200">
 				<div>
-					<h3 class="text-xl font-bold text-gray-900 mb-4">Deploy AI</h3>
+					<h3 class="text-xl font-bold text-gray-900 mb-4">Deploy Cal.ai</h3>
 					<p class="text-gray-500 leading-relaxed mb-8">
-						Put our research agent to work and rotate complex tasks that normally require human effort, like prospecting, lead routing and more.
+						Put our AI agent to work and handle complex tasks that normally require human effort, like booking, rescheduling, and answering inquiries over the phone or text.
 					</p>
 				</div>
 				<a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-gray-900 hover:opacity-70 transition-opacity">
@@ -102,16 +102,16 @@
 							</div>
 							<div class="flex-1">
 								<div class="bg-gray-50 rounded-lg p-3 text-sm text-gray-800 mb-2">
-									<p class="font-medium mb-1">Activate PLG motion</p>
-									<p class="text-gray-500 text-xs">Does the company sell software to other businesses?</p>
+									<p class="font-medium mb-1">Handle inbound call</p>
+									<p class="text-gray-500 text-xs">Can you book a meeting for next Tuesday at 2pm?</p>
 								</div>
 								
 								<div class="bg-white border border-gray-200 rounded-lg p-3 text-sm text-gray-800 mb-2 shadow-sm">
 									<div class="flex items-center gap-2 mb-2">
 										<div class="w-4 h-4 rounded bg-blue-100 flex items-center justify-center text-[10px] text-blue-600">✓</div>
-										<span class="font-medium">Conduct role of subjectivity?</span>
+										<span class="font-medium">Check availability and conflicts?</span>
 									</div>
-									<p class="text-gray-500 text-xs">Yes the company was only found recently.</p>
+									<p class="text-gray-500 text-xs">Yes, the slot is available and reserved.</p>
 								</div>
 
 								<div class="bg-white border border-gray-200 rounded-lg p-3 text-sm text-gray-800 shadow-sm">
@@ -154,7 +154,7 @@
 				<div class="relative w-full max-w-md h-64 flex items-center justify-center">
 					<!-- Center Logo -->
 					<div class="w-16 h-16 bg-black rounded-xl flex items-center justify-center z-10 shadow-lg">
-						<span class="text-white font-bold text-2xl font-serif">a</span>
+						<span class="text-white font-bold text-2xl font-serif">c</span>
 					</div>
 
 					<!-- Connecting Lines -->
